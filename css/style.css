@@ -36,3 +36,78 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+
+body {
+	background-color: #3f3f3f;
+	width: 700px;
+	margin: 0px auto;
+	height: 500px;
+}
+
+header {
+	width: 700px;
+	height: 200px;
+	background-color: #80b7b3;
+	margin: 25px auto;
+	border-top-right-radius : 25px;
+	border-top-left-radius : 25px;
+}
+
+.button__check {
+	display: block;
+	width: 700px;
+	height: 50px;
+	background: #80b7b3;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+}
+
+.button__check:hover {
+	background-color: #3a5856;
+}
+
+.button__check:active {
+	background-color: #818181;
+}
+
+.fs {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 14px;
+	letter-spacing: 2.8px;
+}
+
+.copyright {
+	display: block;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 14px;
+	letter-spacing: 2.8px;
+	text-align: center;
+	padding: 18px;
+}
+
+footer {
+	display: block;
+	width: 700px;
+	height: 50px;
+	background-color: #80b7b3;
+	margin: 25px auto;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+footer a {
+	color: #ffffff;
+}
+
+footer a:hover {
+	text-shadow: 1px 1px 2px black;
+}
+
+
+footer a:active {
+	text-shadow: 1px 1px 2px black;
+	color: #818181;
+}
