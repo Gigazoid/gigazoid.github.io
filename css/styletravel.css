@@ -1,0 +1,140 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+	width: 1400;
+	background: url('../img/ellipse.png') center 100px no-repeat;
+	background-color: #e8e8e8;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 100px 0 0 0;
+	font-family: "Arial MT";
+}
+
+h2 {
+	text-align: center;
+	font-size: 36px;
+	margin: 25px 0 65px 0;
+	font-family: "Times New Roman PSMT";
+	color: #273d46;
+}
+
+.block {
+	display: block;
+	margin: auto;
+	width: 841px;
+	height: 561px;
+	background: url('../img/light-man_copy.png') 50% 50% no-repeat, #fff 0 0 no-repeat;
+	box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+}
+
+.text2 {
+	display: block;
+	width: 736px;
+	opacity: 0.8;
+	line-height: 40px;
+	margin: 65px auto;
+	font-family: "Times New Roman PSMT";
+	color: #273d46;
+	font-size: 24px;
+}
+
+.list {
+	margin: 0 0 50px 0;
+}
+
+.list li {
+	display: block;
+	width: 736px;
+	font-size: 20px;
+	margin: 20px auto;
+	color: #273d46;
+	font-family: "Arial MT";
+	line-height: 36px;
+	background: url('../img/icons/check_icon.png') left 8px no-repeat;
+	padding: 0px 0px 0px 30px;
+}
+
+.li1 {
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.li2 {
+	color: #80b7b3;
+	font-style: italic;
+}
+
+.li3 {
+	font-weight: bold;
+}
+
+.li4 {
+	opacity: 0.3;
+	text-decoration: line-through;
+}
+
+.bhover {
+	position:absolute;
+    left:50%; 
+    transform:translateX(-50%); /* centered first regardless of width*/
+	margin-left: -270px; /* then moved over */
+}
+
+.button-hover {
+	display: block;
+	width: 199px;
+	height: 44px;
+	margin-bottom: 30px;
+	background: #80b7b3;
+	cursor: pointer;
+	border-radius: 25px;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+}
+
+.fs {
+	font-size: 14px;
+	font-family: "Arial MT";
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	color: #ffffff;
+	text-align: left;
+}
