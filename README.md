@@ -1,1 +1,1 @@
-# gigazoid.github.io
+# gigazoi.github.io
