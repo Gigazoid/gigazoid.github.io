@@ -53,6 +53,24 @@ header {
 	border-top-left-radius : 25px;
 }
 
+.header__logo {
+	display: block;
+	font-size: 35px;
+	color: #ffffff;
+	text-align: center;
+	padding: 80px 0px 0px 0px;
+	text-shadow: 1px 1px 2px black;
+}
+
+.header__text {
+	display: block;
+	font-size: 15px;
+	color: #ffffff;
+	text-align: right;
+	padding: 45px 13px 0px 0px;
+	text-shadow: 1px 1px 2px black;
+}
+
 .button__check {
 	display: block;
 	width: 700px;
