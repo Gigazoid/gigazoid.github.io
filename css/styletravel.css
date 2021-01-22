@@ -38,9 +38,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 body {
-	width: 1400;
+	width: 1100px;
 	background: url('../img/ellipse.png') center 100px no-repeat;
 	background-color: #e8e8e8;
+	margin: auto;
 }
 
 h1 {
@@ -116,21 +117,23 @@ h2 {
 	text-decoration: line-through;
 }
 
-.bhover {
-	position:absolute;
-    left:50%; 
-    transform:translateX(-50%); /* centered first regardless of width*/
-	margin-left: -270px; /* then moved over */
+.fs {
+	font-size: 14px;
+	font-family: "Arial MT";
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	color: #ffffff;
+	text-align: left;
 }
 
 .button__check {
-	display: block;
+	display: inline-block;
 	width: 199px;
 	height: 44px;
 	background: #80b7b3;
 	border-radius: 25px;
 	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
-	margin: 25px 0px 150px 0px;
+	margin: 0px 0px 10px 180px;
 }
 
 .button__check:hover {
@@ -141,11 +144,20 @@ h2 {
 	background-color: #818181;
 }
 
-.fs {
-	font-size: 14px;
-	font-family: "Arial MT";
-	text-transform: uppercase;
-	letter-spacing: 2.8px;
-	color: #ffffff;
-	text-align: left;
+.button__check2 {
+	display: inline-block;
+	width: 199px;
+	height: 44px;
+	background: #80b7b3;
+	border-radius: 25px;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	margin: 1px 0px 150px 180px;
+}
+
+.button__check2:hover {
+	background-color: #3a5856;
+}
+
+.button__check2:active {
+	background-color: #818181;
 }
