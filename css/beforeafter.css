@@ -1,0 +1,140 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+	margin: 150px auto 0px;
+	width: 850px;
+	height: 700px;
+	background-color: #e8e8e8;
+}
+
+.list {
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.button_check {
+	width: 199px;
+	height: 44px;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	background-color: #80b7b3;
+	border-radius: 25px;
+	margin: 150px 0px 0px 25px;
+}
+
+.button_check:hover {
+	background-color: #3a5856;;
+}
+
+.button_check:active{
+	background-color: #818181;
+}
+
+.span__style {
+	margin: auto;
+	color: #ffffff;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.span__style::before {
+	content: '';
+	display: inline-block;
+	width: 21px;
+	height: 14px;
+	margin-right: 8px;
+	background: url(../img/Shape_2.png) left 1px no-repeat;
+	opacity: 0.8;
+	transform: scale(-1, 1)
+}
+
+.text__one {
+	font-size: 18px;
+	line-height: 28px;
+	margin: 150px 0px 0px 0px;
+}
+
+.text__one::first-line {
+	color: red;
+}
+
+.text__two {
+	font-size: 18px;
+	line-height: 28px;
+	margin: 40px 0px 0px 0px;
+}
+
+.text__two::first-letter {
+	font-size: 25px;
+	color: red;
+}
+
+.list li{
+	background: url(../img/icon.png) left 8px no-repeat;
+	padding: 0px 0px 0px 30px;
+}
+
+.list li:nth-child(1) {
+	text-decoration: line-through;
+}
+
+.list li:nth-child(2) {
+	font-weight: bold;
+}
+
+.list li:nth-child(3) {
+	font-style: italic;
+}
+
+.list li:nth-child(4) {
+	text-transform: uppercase;
+}
+
+.list li:hover {
+	text-decoration: none;
+	font-weight: 400;
+	font-style: normal;
+	text-transform: none;
+}
+
+.list li:hover:nth-child(2) {
+	background: url(../img/check_icon.png) left 8px no-repeat;
+	color: red;
+}
+
