@@ -123,15 +123,22 @@ h2 {
 	margin-left: -270px; /* then moved over */
 }
 
-.button-hover {
+.button__check {
 	display: block;
 	width: 199px;
 	height: 44px;
-	margin-bottom: 30px;
 	background: #80b7b3;
-	cursor: pointer;
 	border-radius: 25px;
 	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	margin: 25px 0px 150px 0px;
+}
+
+.button__check:hover {
+	background-color: #3a5856;
+}
+
+.button__check:active {
+	background-color: #818181;
 }
 
 .fs {
