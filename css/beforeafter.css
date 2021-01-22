@@ -84,6 +84,16 @@ body {
 	transform: scale(-1, 1)
 }
 
+.info {
+	content: '';
+	display: inline-block;
+	width: 21px;
+	height: 14px;
+	margin-right: 8px;
+	background: url(../img/Shape_2.png) left 1px no-repeat;
+	opacity: 0.8;
+}
+
 .text__one {
 	font-size: 18px;
 	line-height: 28px;
