@@ -93,10 +93,6 @@ header {
 	font-family: "Arial MT";
 	font-size: 14px;
 	letter-spacing: 2.8px;
-}
-
-/* Рекурсия иконки стрелки. */
-.mirrorY {
 	transform: scale(-1, 1)
 }
 
