@@ -95,6 +95,7 @@ header {
 	letter-spacing: 2.8px;
 }
 
+/* Рекурсия иконки стрелки. */
 .fs__image {
 	transform: scale(-1, 1)
 }
