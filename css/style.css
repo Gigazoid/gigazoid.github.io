@@ -47,7 +47,7 @@ body {
 header {
 	width: 700px;
 	height: 200px;
-	background-color: #80b783;
+	background-color: rgba(128, 183, 179, 0.54);
 	margin: 25px auto;
 	border-top-right-radius : 25px;
 	border-top-left-radius : 25px;
@@ -75,8 +75,8 @@ header {
 	display: block;
 	width: 700px;
 	height: 50px;
-	background: #59c42f;
-	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	background: rgba(128, 183, 179, 0.54);
+	box-shadow: 0 6px 40px rgba(62, 83, 82, 0.54);
 }
 
 .button__check:hover {
@@ -110,7 +110,7 @@ footer {
 	display: block;
 	width: 700px;
 	height: 50px;
-	background-color: #80b7b3;
+	background-color: rgba(128, 183, 179, 0.54);
 	margin: 25px auto;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
