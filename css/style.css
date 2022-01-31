@@ -76,7 +76,7 @@ header {
 	width: 700px;
 	height: 50px;
 	background: #80b7b3;
-	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	box-shadow: 0 6px 40px rgba(34, 43, 42, 0.54)
 }
 
 .button__check:hover {
